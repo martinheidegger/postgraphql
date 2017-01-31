@@ -26,6 +26,7 @@
     "postgraphql": "build/postgraphql/cli.js"
   },
   "scripts": {
+    "preinstall": "npm run build",
     "build": "./scripts/build",
     "dev": "./scripts/dev",
     "lint": "./scripts/lint",
